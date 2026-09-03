@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>阿戈斯普通版更新</title>
+        <link>https://bobbyye19890223-bit.github.io/argos-support/</link>
+        <description>阿戈斯普通版的已签名更新信息。正式安装包发布前，此列表保持为空。</description>
+        <language>zh-CN</language>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: v6Ad9m4R5op6EeH6ig0cZKeV2L4aKhCGVPmhe0HG5nFcad83qs7FynlN4FZYFT+JCTt3wn2e+5vdaHe0f2cqDQ==
+length: 703
+-->
