@@ -14,10 +14,6 @@
 
 [下载阿戈斯普通版 1.0.0（构建 19）](https://github.com/bobbyye19890223-bit/argos-support/releases/tag/standard-v1.0.0-build19)
 
-适用于 macOS 13 或更新版本，支持 Intel 与 Apple Silicon。安装包已使用 Developer ID 签名并通过 Apple 公证。
-
-独立版不启用 macOS App Sandbox，以减少本地资料库的沙盒授权步骤；macOS 自身的隐私权限仍然有效。独立版默认发送匿名使用统计，不显示首次同意流程，也不提供关闭开关；App Store 版不包含该统计 SDK。请在下载前阅读[隐私政策](https://bobbyye19890223-bit.github.io/argos-support/privacy.html)。
-
 ## 界面预览
 
 <img width="2560" height="1600" alt="自动收纳散落的 HTML 文件" src="https://github.com/user-attachments/assets/acf72ef0-9175-46dc-90b4-46611c19bd17" />
