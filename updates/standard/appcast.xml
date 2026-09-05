@@ -1,13 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>阿戈斯普通版更新</title>
         <link>https://bobbyye19890223-bit.github.io/argos-support/</link>
-        <description>阿戈斯普通版的已签名更新信息。正式安装包发布前，此列表保持为空。</description>
+        <description>阿戈斯普通独立版的已签名更新信息。</description>
         <language>zh-CN</language>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sat, 05 Sep 2026 14:41:33 +0800</pubDate>
+            <link>https://bobbyye19890223-bit.github.io/argos-support/</link>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# 阿戈斯普通版 1.0.0
+
+构建号：19。面向直接安装的普通版，不是个人 PRO，也不是 App Store 上传包。
+
+- 汇集最新的首次使用引导、HTML 收录、内容去重、本地分类及界面调整。
+- 保留手动选择分类和外部 Agent 通过 CLI 管理 HTML、设置及自定义分类的工作流。
+- 保留应用内软件更新与哈宝更新提醒；更新源未发布新包前，不会出现该版本的公开更新条目。
+- 修复 App 图标透明圆角，发布脚本会同时检查源图和编译后图标，防止黑色或不透明四角回归。
+- 普通独立版不启用 macOS App Sandbox，减少资料库文件夹授权步骤；macOS 自身的隐私权限仍然有效。
+- 独立版默认发送匿名使用统计且不提供关闭开关；仅包含固定事件、匿名安装标识、版本和系统信息及分段后的数量、耗时与错误类型，不上传 HTML 内容、文件名、路径、文件夹名称、搜索词或自由文本。App Store 版不包含统计 SDK。
+- 使用 Developer ID、Hardened Runtime 与 Apple 公证保护直接安装包；随附 CLI 和 Sparkle 更新组件一并签名验证。
+
+1.0.0 构建 19 使用新的独立安装包，保留此前的构建 17、0.2.2 包与公证记录。公证提交、票据装订及最终验证状态另见对应发行核验记录；仅修改版本号不表示已经通过公证或已公开发布。
+]]></description>
+            <enclosure url="https://github.com/bobbyye19890223-bit/argos-support/releases/download/standard-v1.0.0-build19/Argos-Standard-1.0.0-19.dmg" length="46380487" type="application/octet-stream" sparkle:edSignature="gwmsT2JBV/OxTLwUUYbq3K+vzsB3R093C8OMwEwSGkK2HAsnV9E0AHVHYsfq0C9/8TdE+gLiB8h1PxCKVfcBCA=="/>
+        </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: v6Ad9m4R5op6EeH6ig0cZKeV2L4aKhCGVPmhe0HG5nFcad83qs7FynlN4FZYFT+JCTt3wn2e+5vdaHe0f2cqDQ==
-length: 703
+</rss>
+<!-- sparkle-signatures:
+edSignature: 8qUxfkpqzltZ7NCLMmGavkeAbBnaegdWh/DllEcs/3opjOsj4m32Xk/d3PrWK4NIW1LzqUVtl/yOQEDNPzjxDg==
+length: 2879
 -->
