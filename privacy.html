@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>隐私政策 · 阿戈斯 Argos</title>
-  <meta name="description" content="阿戈斯 Argos 隐私政策：本地文档处理、文件夹权限、默认关闭的可选 TelemetryDeck 使用统计、支持邮件与网站托管说明。">
+  <meta name="description" content="阿戈斯 Argos 隐私政策：本地文档处理、发行渠道差异、独立版默认匿名统计、文件访问权限、软件更新、支持邮件与网站托管说明。">
   <meta property="og:type" content="website">
   <meta property="og:title" content="隐私政策 · 阿戈斯 Argos">
-  <meta property="og:description" content="了解本地数据处理、可选使用统计及你的隐私选择。">
+  <meta property="og:description" content="了解本地数据处理、发行渠道、独立版匿名统计与文件访问方式。">
   <meta property="og:image" content="https://bobbyye19890223-bit.github.io/argos-support/assets/social-preview.png">
   <meta property="og:image:alt" content="阿戈斯 Argos · 支持与隐私 · Support &amp; Privacy">
   <meta property="og:image:width" content="1729">
   <meta property="og:image:height" content="910">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="隐私政策 · 阿戈斯 Argos">
-  <meta name="twitter:description" content="了解本地数据处理、可选使用统计及你的隐私选择。">
+  <meta name="twitter:description" content="了解本地数据处理、发行渠道、独立版匿名统计与文件访问方式。">
   <meta name="twitter:image" content="https://bobbyye19890223-bit.github.io/argos-support/assets/social-preview.png">
   <link rel="icon" href="assets/argos-icon.png" type="image/png">
   <link rel="stylesheet" href="style.css">
@@ -30,34 +30,35 @@
       <p class="eyebrow">ARGOS · PRIVACY</p>
       <h1>隐私政策</h1>
       <p class="lead">说明阿戈斯如何处理信息，以及你可以做出的选择。</p>
-      <p class="meta">生效日期：2026 年 9 月 2 日 · 适用于阿戈斯 macOS 应用及本支持网站</p>
-      <div class="notice"><p>阿戈斯以本地文档管理为核心，无需账户。可选使用统计<strong>默认关闭</strong>，只有你开启后才会发送。我们不会通过使用统计上传你的 HTML 内容、文件名、完整路径或搜索词。</p></div>
-      <nav class="toc" aria-label="本页目录"><a href="#local">本地文件</a><a href="#analytics">可选统计</a><a href="#choices">你的选择</a><a href="#website">网站与联系</a><a href="#english" lang="en">English policy</a></nav>
+      <p class="meta">生效日期：2026 年 9 月 5 日 · 适用于阿戈斯 macOS 独立安装版、App Store 版及本支持网站</p>
+      <div class="notice"><p>阿戈斯以本地文档管理为核心，无需账户。<strong>独立安装版会默认发送匿名使用统计，且不提供关闭开关；App Store 版不包含统计 SDK，也不发送这些统计。</strong>统计不包含 HTML 内容、文件名、文件夹名称、完整路径、搜索词或自由输入文本。</p></div>
+      <nav class="toc" aria-label="本页目录"><a href="#local">本地文件</a><a href="#analytics">发行渠道与统计</a><a href="#choices">你的选择</a><a href="#website">网站与联系</a><a href="#english" lang="en">English policy</a></nav>
       <section id="operator">
         <h2>1. 谁负责本应用</h2>
         <p>本政策由阿戈斯开发者发布，GitHub 账号为 bobbyye19890223-bit。如对数据处理有疑问，或希望提出隐私请求，请联系 <a href="mailto:bobbyye2026@qq.com?subject=Argos%20Privacy">bobbyye2026@qq.com</a>。</p>
       </section>
       <section id="local">
         <h2>2. 文档与文件夹权限</h2>
-        <p>你通过系统文件夹选择窗口授权阿戈斯访问文档库。应用在本机读取 HTML / HTM 文件，提取标题、摘要和文件元数据，并建立索引、分类及封面缓存，以提供浏览、搜索和整理功能。应用也会在本机保存偏好设置和文件夹访问授权记录。</p>
+        <p>你在应用中选择或添加文档库后，阿戈斯会在本机读取其中的 HTML / HTM 文件，提取标题、摘要和文件元数据，并建立索引、分类及封面缓存，以提供浏览、搜索和整理功能。App Store 版受 App Sandbox 限制，使用系统授权与安全作用域书签保存文件夹访问权限。独立安装版不启用 App Sandbox，因此不需要同一套沙盒授权流程；应用设计上只扫描你明确添加的文档库，但 macOS 不会再用 App Sandbox 技术限制其文件访问范围。偏好设置、索引、缓存和相关路径记录保存在本机。</p>
         <p>阿戈斯不会将文档内容或文档库上传到开发者服务器。连接文档库不会复制或移动原文件；确认导入时，所选文件会被复制到你指定的目标文档库。应用可能在文档库内的 <code>.argos/library.json</code> 保存相对路径形式的排除记录和手动分类。</p>
         <p>移除文档或断开文档库不等于删除原文件，也不保证立即清除所有本地缓存。若文档库位于 iCloud 或其他同步文件夹，原文件及库内配置可能由相应同步服务同步；这受你与该服务的设置和政策约束。</p>
       </section>
       <section id="analytics">
-        <h2>3. 默认关闭的可选使用统计</h2>
-        <p>为了解功能使用情况、扫描表现和常见错误，阿戈斯提供 TelemetryDeck 使用统计。只有你开启“发送匿名使用数据”后才会启用；关闭该选项不影响本地文档管理。</p>
-        <p>启用后，可能发送以下信息：</p>
+        <h2>3. 发行渠道与匿名使用统计</h2>
+        <p>为了解每日活跃人数、启动次数、功能使用量、扫描表现和常见错误，独立安装版通过 TelemetryDeck 默认发送匿名使用统计，不显示首次同意流程，也不提供关闭开关。App Store 版不链接或初始化 TelemetryDeck，不发送下列统计。两种版本的本地文档管理功能均不依赖统计服务。</p>
+        <p>独立安装版可能发送以下信息：</p>
         <ul>
           <li>预先定义的操作事件，例如启动、连接文档库、扫描、发现或导入文档、打开、复制、分享、分类和移除。</li>
           <li>文档数量、处理耗时和失败数量的区间，以及预先定义的错误类型。</li>
           <li>SDK 的匿名化安装标识、按小时处理的事件时间，以及系统版本、设备类型、应用版本、构建号和分发渠道等技术信息。</li>
         </ul>
         <p>统计不包含 HTML 正文、文件名、文件夹名称、完整文件路径、搜索词或自由输入的错误文本。阿戈斯不提供账户登录，也不使用这些统计进行广告跟踪。</p>
-        <p>TelemetryDeck 的<a href="https://telemetrydeck.com/docs/guides/privacy-faq/">官方隐私说明</a>称，其服务器不保存 IP 地址；历史事件目前没有承诺的固定删除期限。有关该服务的数据处理详情，请查阅 <a href="https://telemetrydeck.com/privacy">TelemetryDeck 隐私政策</a>。</p>
+        <p>TelemetryDeck 的<a href="https://telemetrydeck.com/docs/guides/privacy-faq/">官方隐私说明</a>称，其服务器不保存 IP 地址；冷数据目前没有承诺的固定删除期限，官方预计可能保留 7 至 10 年但不作保证。有关该服务的数据处理详情，请查阅 <a href="https://telemetrydeck.com/privacy">TelemetryDeck 隐私政策</a>。</p>
       </section>
       <section id="network">
         <h2>4. 预览、打开与分享</h2>
         <p>本地封面预览禁用 JavaScript，并阻止 HTTP / HTTPS 远程资源。打开原始 HTML 文档后，关联的浏览器或其他应用可能执行脚本或访问页面引用的在线服务，其行为不受本地封面预览限制。请只打开你信任的内容。</p>
+        <p>独立安装版使用 Sparkle 从本 GitHub Pages 站点检查更新，默认每日检查，可在设置中关闭；请求可能包含应用版本、构建号和系统版本等技术信息，但不包含文档库内容或 Sparkle 的可选系统画像。App Store 版向 Apple 查询公开版本信息，并由 App Store 负责下载和安装。GitHub、Apple 与网络服务会接收建立连接所需的 IP 地址，并可能按各自政策记录访问日志。</p>
         <p>复制或分享由你主动触发，使用系统剪贴板或分享服务。“发送到微信”会复制文件并尝试打开微信，需要你自行粘贴并确认发送。外部应用、网站、云同步和邮件服务的信息处理遵循各自政策。</p>
       </section>
       <section id="choices">
@@ -65,7 +66,7 @@
         <ul>
           <li><strong>原始文档：</strong>由你保管和删除，断开连接不会删除文件。</li>
           <li><strong>本地索引、缓存与设置：</strong>为持续提供功能而保存在设备上。你可以断开文档库、调整系统授权；如需进一步清理应用数据，可联系我们获取帮助。</li>
-          <li><strong>使用统计：</strong>在 <strong>阿戈斯 → 设置 → 隐私</strong> 中关闭<strong>“发送匿名使用数据”</strong>，即可停止后续发送。关闭不会撤回此前已发送的事件；历史匿名化事件的保留由统计服务处理，我们通常无法根据姓名或邮箱定位到这些事件。</li>
+          <li><strong>使用统计：</strong>独立安装版默认上报且不提供关闭开关；如不希望发送，请改用 App Store 版。TelemetryDeck 的冷数据目前没有承诺的固定删除期限，官方预计可能保留 7 至 10 年但不作保证。历史事件已匿名化，通常无法根据姓名、邮箱或设备身份定位并单独删除。</li>
           <li><strong>账户：</strong>应用不设阿戈斯账户，因此没有账户删除流程。</li>
         </ul>
         <p>如希望了解、访问、更正或删除你主动提供给我们的信息，请通过下方邮箱联系。我们会根据实际持有的信息、请求的可行性和适用要求处理，不会为了处理请求而要求你发送无关的私人文件。</p>
@@ -83,23 +84,24 @@
       <section class="language" id="english" lang="en">
         <p class="eyebrow">ENGLISH</p>
         <h2>Privacy policy</h2>
-        <p class="meta">Effective September 2, 2026 · Argos for macOS and this support website</p>
+        <p class="meta">Effective September 5, 2026 · Argos standalone and App Store editions for macOS, and this support website</p>
         <h3>1. Developer and contact</h3>
         <p>This policy is provided by the Argos developer, GitHub account bobbyye19890223-bit. Contact <a href="mailto:bobbyye2026@qq.com?subject=Argos%20Privacy">bobbyye2026@qq.com</a> with privacy questions or requests.</p>
         <h3>2. Local documents and folder access</h3>
-        <p>Argos accesses library folders you authorize through the system folder picker. It reads HTML / HTM documents locally to create titles, summaries, metadata, search indexes, classifications and cover previews. Preferences, caches and folder-access bookmarks are stored on your device. Argos does not upload your documents or library to a developer-operated server.</p>
+        <p>After you select or add a library, Argos reads its HTML / HTM documents locally to create titles, summaries, metadata, search indexes, classifications and cover previews. The App Store edition is confined by App Sandbox and stores folder access through system authorization and security-scoped bookmarks. The standalone edition does not enable App Sandbox and therefore does not use the same sandbox authorization flow. By design it scans only libraries you add, but macOS does not technically confine its file access with App Sandbox. Preferences, indexes, caches and related path records remain on your device. Argos does not upload your documents or library to a developer-operated server.</p>
         <p>Connecting a library does not copy or move original files. Confirmed imports copy selected files to your chosen destination. Exclusions and manual classifications may be saved using relative paths in <code>.argos/library.json</code> inside a library folder. Removing items or disconnecting a library does not delete the originals or necessarily erase all local caches immediately.</p>
         <p>If a library is in iCloud or another synchronized folder, that provider may synchronize files and library settings according to your configuration and its policies.</p>
-        <h3>3. Optional usage analytics</h3>
-        <p>TelemetryDeck analytics are off by default and enabled only when you turn on “发送匿名使用数据”. They help us understand feature use, scanning performance and common errors. Local library features work with analytics disabled.</p>
-        <p>Enabled analytics may include predefined events such as launches, library connections, scans, discovery, imports and document actions; ranges for counts and processing times; fixed error categories; an anonymized installation identifier; hour-level event times; and technical metadata such as OS, device type, app version, build and distribution channel.</p>
-        <p>Analytics do not include document contents, filenames, folder names, full paths, search queries or free-form error text. Argos does not offer app accounts or use these analytics for advertising tracking. TelemetryDeck states that it does not store IP addresses and does not promise a fixed deletion deadline for historical events. See its <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">privacy FAQ</a> and <a href="https://telemetrydeck.com/privacy">privacy policy</a>.</p>
+        <h3>3. Distribution channels and anonymous analytics</h3>
+        <p>To measure daily active users, launch counts, feature usage, scanning performance and common errors, the standalone edition sends anonymous analytics through TelemetryDeck by default. It has no first-run consent flow and no analytics off switch. The App Store edition neither links nor initializes TelemetryDeck and sends none of the analytics below. Local library features in both editions do not depend on the analytics service.</p>
+        <p>Standalone analytics may include predefined events such as launches, library connections, scans, discovery, imports and document actions; ranges for counts and processing times; fixed error categories; an anonymized installation identifier; hour-level event times; and technical metadata such as OS, device type, app version, build and distribution channel.</p>
+        <p>Analytics do not include document contents, filenames, folder names, full paths, search queries or free-form error text. Argos does not offer app accounts or use these analytics for advertising tracking. TelemetryDeck states that it does not store IP addresses. It currently promises no fixed retention period for cold data and estimates that it may be retained for 7 to 10 years without guarantee. See its <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">privacy FAQ</a> and <a href="https://telemetrydeck.com/privacy">privacy policy</a>.</p>
         <h3>4. Previews, external apps and sharing</h3>
         <p>Local cover previews disable JavaScript and remote HTTP / HTTPS resources. Opening the original HTML in an associated application may run scripts or contact online resources; the preview restrictions do not apply there. Only open content you trust.</p>
+        <p>The standalone edition uses Sparkle to check this GitHub Pages site for updates daily by default; you may disable update checks in Settings. Requests may include the app version, build number and OS version, but not library contents or Sparkle's optional system profile. The App Store edition queries Apple for public version information, and the App Store handles downloads and installation. GitHub, Apple and network providers receive the IP address needed to establish a connection and may log requests under their policies.</p>
         <p>Copying and sharing are initiated by you and use the clipboard or system share services. The WeChat option copies a file and attempts to open WeChat; you paste and confirm sending yourself. External browsers, websites, sharing apps, cloud storage and email providers have their own privacy policies.</p>
         <h3>5. Retention and your choices</h3>
         <p>You control the original documents. Indexes, caches and settings remain locally to support the app; disconnecting a library does not delete its original files. You may disconnect libraries or adjust system access. Contact us for help with further cleanup.</p>
-        <p>Disable analytics under <strong>阿戈斯 → 设置 → 隐私 → 发送匿名使用数据</strong> to stop future submissions. This does not withdraw earlier events. Historical anonymized events are retained by the analytics provider and generally cannot be located by your name or email. There is no Argos account to delete.</p>
+        <p>The standalone edition submits analytics by default and has no off switch; use the App Store edition if you do not want these submissions. TelemetryDeck currently promises no fixed retention period for cold data and estimates 7 to 10 years without guarantee. Historical events are anonymized and generally cannot be located or deleted individually by name, email or device identity. There is no Argos account to delete.</p>
         <p>Contact us to ask about access, correction or deletion of information you have voluntarily provided. We will respond based on what we actually hold, what is feasible and applicable requirements, without asking for unrelated private files.</p>
         <h3>6. Support email and this website</h3>
         <p>If you email us, we receive your email address, message and attachments to respond, investigate issues and handle requests. Provide only necessary information and redact sensitive content. Support correspondence is kept as needed to address the request and necessary follow-up; you may request deletion.</p>
